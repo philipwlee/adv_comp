@@ -11,5 +11,9 @@ int vector_main();
 int curious_main();
 int rev_set_main();
 int lec_5_order_main();
+int lec_6_main();
+int lec_6_thread_main();
+int lec_7_main();
+int lec_7_observer_main();
 
 #endif //ADV_COMP_LECTURES_H

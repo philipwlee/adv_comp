@@ -1,9 +1,11 @@
 #include <iostream>
+#include <set>
+
 #include "lectures.h"
 #include "homeworks.h"
 #include "phases.h"
 #include "practice.h"
-#include <set>
+
 
 
 void lectures()
@@ -17,7 +19,11 @@ void lectures()
 //    vector_main();
 //    curious_main();
 //    rev_set_main();
-    lec_5_order_main();
+//    lec_5_order_main();
+//    lec_6_main();
+//    lec_6_thread_main();
+    lec_7_main();
+//    lec_7_observer_main();
 }
 
 void homeworks()
@@ -27,7 +33,9 @@ void homeworks()
 //    std::cout << countPalindromes("abba") << '\n';
 //    std::cout << countPowerNumbers(1, 1000000) << '\n';
 //    isPossible(1,2,3,5);
-    hw4_main();
+//    hw4_main();
+//    tree_valid_main();
+    singleton_main();
 }
 
 void phases()
